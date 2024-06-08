@@ -231,7 +231,7 @@ const SSSS = () => {
               <button
                 key={category.category}
                 onClick={() => setSelectedCategory(category.category)}
-                className={`relative text-base font-medium w-11/12 h-full border bg-white border-gray-600 px-4 py-5 focus:outline-none ${
+                className={`relative text-base font-medium w-11/12 h-full border border-gray-600 px-4 py-5 focus:outline-none ${
                   selectedCategory === category.category
                     ? 'bg-blue-800 text-white'
                     : 'hover:bg-gray-200 text-black'
