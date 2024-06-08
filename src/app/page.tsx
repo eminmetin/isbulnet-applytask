@@ -234,7 +234,7 @@ const SSSS = () => {
                 className={`relative text-base font-medium w-11/12 h-full border border-gray-600 px-4 py-5 focus:outline-none ${
                   selectedCategory === category.category
                     ? 'bg-blue-800 text-white'
-                    : 'hover:bg-gray-200 text-black'
+                    : 'hover:bg-gray-200 bg-white text-black'
                 }`}
               >
                 <span className='inline-block'>{category.category}</span>
